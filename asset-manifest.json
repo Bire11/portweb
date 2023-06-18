@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portweb/static/css/main.cf4e01ad.css",
+    "main.js": "/portweb/static/js/main.d5585c72.js",
+    "static/media/MJ0C79381.jpg": "/portweb/static/media/MJ0C79381.df633d532ae4e7b7216c.jpg",
+    "static/media/bmi.PNG": "/portweb/static/media/bmi.6343dc91fca67fa603b5.PNG",
+    "static/media/age.PNG": "/portweb/static/media/age.5076a19c53ee80eee65c.PNG",
+    "static/media/tic.PNG": "/portweb/static/media/tic.abbe9f01750e788ab21a.PNG",
+    "index.html": "/portweb/index.html",
+    "main.cf4e01ad.css.map": "/portweb/static/css/main.cf4e01ad.css.map",
+    "main.d5585c72.js.map": "/portweb/static/js/main.d5585c72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf4e01ad.css",
+    "static/js/main.d5585c72.js"
+  ]
+}
