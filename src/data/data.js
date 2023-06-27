@@ -1,5 +1,6 @@
 import Work1 from '../assets/bmi.PNG'
 import Work2 from '../assets/age.PNG'
+import Work3 from '../assets/work.png'
 import RealEst from '../assets/tic.PNG'
 
 
@@ -22,6 +23,13 @@ export const data=[
         id:3,
         name:"BMI Calculator",
         image:Work2,
+        github:"",
+        live:"",
+    },
+    {
+        id:4,
+        name:"Portfolio",
+        image:Work3,
         github:"",
         live:"",
     },
