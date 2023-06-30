@@ -7,9 +7,9 @@ import RealEst from '../assets/tic.PNG'
 export const data=[
     {
         id:1,
-        name:"Age Calculator",
+        name:"BMI Calculator ",
         image:Work1,
-        github:"",
+        github:"https://github.com/Bire11/react1/blob/main/src/components/Bmi.js",
         live:"",
     },
     {
@@ -21,9 +21,9 @@ export const data=[
     },
     {
         id:3,
-        name:"BMI Calculator",
+        name:"Age Calculator",
         image:Work2,
-        github:"",
+        github:"https://github.com/Bire11/react1/blob/main/src/components/AgeCalculator.js",
         live:"",
     },
     {
