@@ -7,8 +7,8 @@ import AgeCalculator from './componets/other/AgeCalculator';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AgeCalculator/>
- {/* <App/> */}
+    {/* <AgeCalculator/> */}
+ <App/>
    
   </React.StrictMode>,
   document.getElementById('root')

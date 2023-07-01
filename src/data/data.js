@@ -24,7 +24,7 @@ export const data=[
         name:"Age Calculator",
         image:Work2,
         github:"https://github.com/Bire11/react1/blob/main/src/components/AgeCalculator.js",
-        live:"AgeCalculator",
+        live:"http://localhost:3000/AgeCalculator",
       
     },
     {
