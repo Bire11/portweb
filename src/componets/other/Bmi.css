@@ -1,0 +1,44 @@
+div.bmi-container {
+    margin-top: 200px;
+      width: 300px;
+      padding: 20px;
+      background-color: #a8725c;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .bmi-title {
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    
+    .input-group {
+      margin-bottom: 12px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 4px;
+    }
+    
+    input {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    .calculate-btn {
+      width: 100%;
+      padding: 8px;
+      background-color: #0084ff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .result {
+      text-align: center;
+      margin-top: 16px;
+    }

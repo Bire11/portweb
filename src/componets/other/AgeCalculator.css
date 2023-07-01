@@ -1,0 +1,57 @@
+.age-calendar{
+    background-color: #a8725c;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 500px;
+    height: 320px;
+    border: rgb(62, 63, 60) solid;
+    box-shadow: rgb(31, 31, 31) 0px 7px 3px;
+  }
+  .age-calendar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 200px;
+  
+    }
+    
+    h2 {
+      margin-top: 30px;
+      font-size: 24px;
+    }
+    
+    label {
+      margin-top: 10px;
+    }
+    
+    input {
+      
+      margin: 10px 0;
+      padding: 5px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #0056b3;
+    }
+    .customform-control {
+      width: 250px;
+    }
+    
+    p {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    #birth-date::placeholder {
+      color: red; /* Replace 'red' with the desired color */
+    }
+    #birth-date {
+      color: blue; /* Replace 'blue' with the desired color */
+    }
