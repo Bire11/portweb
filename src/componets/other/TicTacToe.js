@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './Tic-Tac-Toe.css';
-
+import './TicTacToe.css';
 
 const initialBoard = Array(9).fill(null);
 
@@ -10,7 +9,7 @@ const TicTacToe = () => {
   const [winner, setWinner] = useState(null);
 
   const handleClick = (index) => {
-    if (board[index]  winner) {
+    if (board[index] || winner) {
       return;
     }
 
@@ -28,7 +27,7 @@ const TicTacToe = () => {
 
   const renderCell = (index) => {
     return (
-      <button className="cell btn-success" onClick={() => handleClick(index)}>
+      <button className="cell" onClick={() => handleClick(index)}>
         {board[index]}
       </button>
     );
@@ -51,17 +50,15 @@ const TicTacToe = () => {
   };
 
   return (
-    <div>
     <div className="app">
       <h1>Tic Tac Toe</h1>
       <div className="board">
         {board.map((cell, index) => renderCell(index))}
       </div>
       <div className="status">{renderStatus()}</div>
-      {winner  board.every((cell) => cell !== null) ? (
-        <button className=" btn btn-success mt-3"  onClick={resetGame}>Reset Game</button>
+      {winner || board.every((cell) => cell !== null) ? (
+        <button onClick={resetGame}>Reset Game</button>
       ) : null}
-    </div>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import Work3 from '../assets/work.png'
 import RealEst from '../assets/tic.PNG'
 
 
+
 export const data=[
     {
         id:1,
@@ -11,21 +12,21 @@ export const data=[
         image:Work1,
         github:"https://github.com/Bire11/react1/blob/main/src/components/Bmi.js",
         live:"",
-    },
+    } ,
     {
         id:2,
         name:"TIC-TAC-TOE GAME",
         image:RealEst,
         github:"",
-        live:"",
+        live: "",
     },
     {
         id:3,
         name:"Age Calculator",
         image:Work2,
         github:"https://github.com/Bire11/react1/blob/main/src/components/AgeCalculator.js",
-        live:"http://localhost:3000/AgeCalculator",
-      
+        live:"",
+   
     },
     {
         id:4,

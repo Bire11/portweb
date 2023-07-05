@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import AgeCalculator from './componets/other/AgeCalculator';
-//import Bmi from './componets/Bmi';
+import TicTacToe from './componets/other/TicTacToe';
+
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <AgeCalculator/> */}
+
  <App/>
+ {/* <TicTacToe/> */}
+
    
   </React.StrictMode>,
   document.getElementById('root')

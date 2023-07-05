@@ -9,8 +9,11 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import {FaTelegram} from 'react-icons/fa';
 import Logo from '../assets/logo.png';
 import { Link } from "react-scroll";
+import cv from '../assets/cv.htm'
+   
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -48,6 +51,8 @@ return (
           Contact
         </Link>
       </li>
+
+     
     </ul>
 
     {/* Hamburger */}
@@ -92,6 +97,9 @@ return (
           Contact
         </Link>
       </li>
+
+      
+
     </ul>
 
     {/* Social icons */}
@@ -121,10 +129,21 @@ return (
             Email <HiOutlineMail size={30} />
           </a>
         </li>
+
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
           <a
             className='flex justify-between items-center w-full text-gray-300'
-            href='/'
+            href='https://t.me/busheeb'
+          >
+            Telegram <FaTelegram size={30} />
+          </a>
+        </li>
+
+
+        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <a
+            className='flex justify-between items-center w-full text-gray-300'
+            href='/assets/cv.htm'
           >
             Resume <BsFillPersonLinesFill size={30} />
           </a>
@@ -133,6 +152,6 @@ return (
     </div>
   </div>
 );
-};
 
+      }
 export default Navbar;
